@@ -4,9 +4,16 @@ Este repositorio contiene tres consultas SQL básicas sobre la tabla `sales`, or
 
 ## Estructura del repositorio
 
-- `consulta_1.sql` → Selección de todas las columnas de la tabla `sales`.
-- `consulta_2.sql` → Selección de columnas específicas (`customer_id`, `product_id`, `total_amount`).
-- `consulta_3.sql` → Selección de columnas con alias en español usando `snake_case`.
+```
+sql-select-fundamentals/
+├── consultas_basicas.sql
+└── README.md
+```
+
+- `consultas_basicas.sql` → Contiene las tres consultas del ejercicio:
+  - **Consulta 1:** exploración general de la tabla `sales` con `SELECT *`.
+  - **Consulta 2:** selección de columnas específicas (`customer_id`, `product_id`, `total_amount`).
+  - **Consulta 3:** selección de columnas con alias en español usando `snake_case` (`id_cliente`, `id_producto`, `monto_total`).
 - `README.md` → Documentación y justificación técnica de las decisiones tomadas.
 
 ---
